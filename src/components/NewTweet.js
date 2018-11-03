@@ -19,7 +19,6 @@ class NewTweet extends Component {
     const { text } = this.state
     const { dispatch, parentId } = this.props
 
-
     dispatch(handleAddTweet(text, parentId))
 
     this.setState(() => ({
